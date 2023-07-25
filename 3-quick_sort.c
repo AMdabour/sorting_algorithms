@@ -52,6 +52,8 @@ int lomuto_partition(int *array, size_t size, int start, int end)
  * lomuto_sort - sorts an array of integers using quick sort algorithm
  * @array: an array of integers
  * @size: the size of the array
+ * @start: The starting index of the array partition to order.
+ * @end: The ending index of the array partition to order
  */
 void lomuto_sort(int *array, size_t size, int start, int end)
 {
